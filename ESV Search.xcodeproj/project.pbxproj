@@ -13,6 +13,9 @@
 		0FE5E67827D6B94000A8E556 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FE5E67727D6B94000A8E556 /* Preview Assets.xcassets */; };
 		0FE5E67A27D6B94000A8E556 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE5E67927D6B94000A8E556 /* Persistence.swift */; };
 		0FE5E67D27D6B94000A8E556 /* ESV_Search.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0FE5E67B27D6B94000A8E556 /* ESV_Search.xcdatamodeld */; };
+		0FE5E68827D6BE6D00A8E556 /* EsvApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE5E68727D6BE6D00A8E556 /* EsvApi.swift */; };
+		0FE5E68A27D6C12000A8E556 /* SearchResultsJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE5E68927D6C12000A8E556 /* SearchResultsJson.swift */; };
+		0FE5E68C27D6C35E00A8E556 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE5E68B27D6C35E00A8E556 /* SearchResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		0FE5E67727D6B94000A8E556 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0FE5E67927D6B94000A8E556 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		0FE5E67C27D6B94000A8E556 /* ESV_Search.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ESV_Search.xcdatamodel; sourceTree = "<group>"; };
+		0FE5E68727D6BE6D00A8E556 /* EsvApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EsvApi.swift; sourceTree = "<group>"; };
+		0FE5E68927D6C12000A8E556 /* SearchResultsJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsJson.swift; sourceTree = "<group>"; };
+		0FE5E68B27D6C35E00A8E556 /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +61,11 @@
 		0FE5E66F27D6B93C00A8E556 /* ESV Search */ = {
 			isa = PBXGroup;
 			children = (
+				0FE5E68327D6BC9F00A8E556 /* Data */,
+				0FE5E68427D6BCA800A8E556 /* Networking */,
+				0FE5E68627D6BD4700A8E556 /* UI */,
 				0FE5E67027D6B93C00A8E556 /* ESV_SearchApp.swift */,
-				0FE5E67227D6B93C00A8E556 /* ContentView.swift */,
 				0FE5E67427D6B94000A8E556 /* Assets.xcassets */,
-				0FE5E67927D6B94000A8E556 /* Persistence.swift */,
-				0FE5E67B27D6B94000A8E556 /* ESV_Search.xcdatamodeld */,
 				0FE5E67627D6B94000A8E556 /* Preview Content */,
 			);
 			path = "ESV Search";
@@ -71,6 +77,33 @@
 				0FE5E67727D6B94000A8E556 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0FE5E68327D6BC9F00A8E556 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				0FE5E67927D6B94000A8E556 /* Persistence.swift */,
+				0FE5E67B27D6B94000A8E556 /* ESV_Search.xcdatamodeld */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		0FE5E68427D6BCA800A8E556 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				0FE5E68727D6BE6D00A8E556 /* EsvApi.swift */,
+				0FE5E68B27D6C35E00A8E556 /* SearchResult.swift */,
+				0FE5E68927D6C12000A8E556 /* SearchResultsJson.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		0FE5E68627D6BD4700A8E556 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				0FE5E67227D6B93C00A8E556 /* ContentView.swift */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +180,9 @@
 				0FE5E67327D6B93C00A8E556 /* ContentView.swift in Sources */,
 				0FE5E67D27D6B94000A8E556 /* ESV_Search.xcdatamodeld in Sources */,
 				0FE5E67127D6B93C00A8E556 /* ESV_SearchApp.swift in Sources */,
+				0FE5E68A27D6C12000A8E556 /* SearchResultsJson.swift in Sources */,
+				0FE5E68827D6BE6D00A8E556 /* EsvApi.swift in Sources */,
+				0FE5E68C27D6C35E00A8E556 /* SearchResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

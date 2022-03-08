@@ -1,10 +1,3 @@
-//
-//  ESV_SearchApp.swift
-//  ESV Search
-//
-//  Created by Matt Robertson on 3/7/22.
-//
-
 import SwiftUI
 
 @main
@@ -14,7 +7,6 @@ struct ESV_SearchApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }
