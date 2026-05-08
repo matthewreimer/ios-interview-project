@@ -7,29 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0FE5E67127D6B93C00A8E556 /* ESV_SearchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE5E67027D6B93C00A8E556 /* ESV_SearchApp.swift */; };
+		0FE5E67127D6B93C00A8E556 /* ESVSearchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE5E67027D6B93C00A8E556 /* ESVSearchApp.swift */; };
 		0FE5E67327D6B93C00A8E556 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE5E67227D6B93C00A8E556 /* ContentView.swift */; };
 		0FE5E67527D6B94000A8E556 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FE5E67427D6B94000A8E556 /* Assets.xcassets */; };
 		0FE5E67827D6B94000A8E556 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FE5E67727D6B94000A8E556 /* Preview Assets.xcassets */; };
 		0FE5E67A27D6B94000A8E556 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE5E67927D6B94000A8E556 /* Persistence.swift */; };
-		0FE5E67D27D6B94000A8E556 /* ESV_Search.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0FE5E67B27D6B94000A8E556 /* ESV_Search.xcdatamodeld */; };
-		0FE5E68827D6BE6D00A8E556 /* EsvApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE5E68727D6BE6D00A8E556 /* EsvApi.swift */; };
-		0FE5E68A27D6C12000A8E556 /* SearchResultsJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE5E68927D6C12000A8E556 /* SearchResultsJson.swift */; };
+		0FE5E67D27D6B94000A8E556 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0FE5E67B27D6B94000A8E556 /* DataModel.xcdatamodeld */; };
+		0FE5E68827D6BE6D00A8E556 /* ESVAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE5E68727D6BE6D00A8E556 /* ESVAPI.swift */; };
+		0FE5E68A27D6C12000A8E556 /* SearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE5E68927D6C12000A8E556 /* SearchResults.swift */; };
 		0FE5E68C27D6C35E00A8E556 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE5E68B27D6C35E00A8E556 /* SearchResult.swift */; };
+		B6D4724E2FAE3E18002CDD43 /* PersistencePreviewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D4724D2FAE3E0A002CDD43 /* PersistencePreviewModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0FE5E66D27D6B93C00A8E556 /* ESV Search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ESV Search.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0FE5E67027D6B93C00A8E556 /* ESV_SearchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESV_SearchApp.swift; sourceTree = "<group>"; };
+		0FE5E67027D6B93C00A8E556 /* ESVSearchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESVSearchApp.swift; sourceTree = "<group>"; };
 		0FE5E67227D6B93C00A8E556 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0FE5E67427D6B94000A8E556 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FE5E67727D6B94000A8E556 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0FE5E67927D6B94000A8E556 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		0FE5E67C27D6B94000A8E556 /* ESV_Search.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ESV_Search.xcdatamodel; sourceTree = "<group>"; };
-		0FE5E68727D6BE6D00A8E556 /* EsvApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EsvApi.swift; sourceTree = "<group>"; };
-		0FE5E68927D6C12000A8E556 /* SearchResultsJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsJson.swift; sourceTree = "<group>"; };
+		0FE5E67C27D6B94000A8E556 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		0FE5E68727D6BE6D00A8E556 /* ESVAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESVAPI.swift; sourceTree = "<group>"; };
+		0FE5E68927D6C12000A8E556 /* SearchResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResults.swift; sourceTree = "<group>"; };
 		0FE5E68B27D6C35E00A8E556 /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
 		B6ACFB7527DBB15F0090CE06 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B6D4724D2FAE3E0A002CDD43 /* PersistencePreviewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistencePreviewModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +68,7 @@
 				0FE5E68327D6BC9F00A8E556 /* Data */,
 				0FE5E68427D6BCA800A8E556 /* Networking */,
 				0FE5E68627D6BD4700A8E556 /* UI */,
-				0FE5E67027D6B93C00A8E556 /* ESV_SearchApp.swift */,
+				0FE5E67027D6B93C00A8E556 /* ESVSearchApp.swift */,
 				0FE5E67427D6B94000A8E556 /* Assets.xcassets */,
 				0FE5E67627D6B94000A8E556 /* Preview Content */,
 			);
@@ -85,7 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				0FE5E67927D6B94000A8E556 /* Persistence.swift */,
-				0FE5E67B27D6B94000A8E556 /* ESV_Search.xcdatamodeld */,
+				0FE5E67B27D6B94000A8E556 /* DataModel.xcdatamodeld */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -93,9 +95,9 @@
 		0FE5E68427D6BCA800A8E556 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				0FE5E68727D6BE6D00A8E556 /* EsvApi.swift */,
+				0FE5E68727D6BE6D00A8E556 /* ESVAPI.swift */,
 				0FE5E68B27D6C35E00A8E556 /* SearchResult.swift */,
-				0FE5E68927D6C12000A8E556 /* SearchResultsJson.swift */,
+				0FE5E68927D6C12000A8E556 /* SearchResults.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -104,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				0FE5E67227D6B93C00A8E556 /* ContentView.swift */,
+				B6D4724D2FAE3E0A002CDD43 /* PersistencePreviewModifier.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -136,7 +139,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
-				LastUpgradeCheck = 1320;
+				LastUpgradeCheck = 2640;
 				TargetAttributes = {
 					0FE5E66C27D6B93C00A8E556 = {
 						CreatedOnToolsVersion = 13.2.1;
@@ -180,10 +183,11 @@
 			files = (
 				0FE5E67A27D6B94000A8E556 /* Persistence.swift in Sources */,
 				0FE5E67327D6B93C00A8E556 /* ContentView.swift in Sources */,
-				0FE5E67D27D6B94000A8E556 /* ESV_Search.xcdatamodeld in Sources */,
-				0FE5E67127D6B93C00A8E556 /* ESV_SearchApp.swift in Sources */,
-				0FE5E68A27D6C12000A8E556 /* SearchResultsJson.swift in Sources */,
-				0FE5E68827D6BE6D00A8E556 /* EsvApi.swift in Sources */,
+				B6D4724E2FAE3E18002CDD43 /* PersistencePreviewModifier.swift in Sources */,
+				0FE5E67D27D6B94000A8E556 /* DataModel.xcdatamodeld in Sources */,
+				0FE5E67127D6B93C00A8E556 /* ESVSearchApp.swift in Sources */,
+				0FE5E68A27D6C12000A8E556 /* SearchResults.swift in Sources */,
+				0FE5E68827D6BE6D00A8E556 /* ESVAPI.swift in Sources */,
 				0FE5E68C27D6C35E00A8E556 /* SearchResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,6 +199,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -228,6 +233,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -247,6 +253,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -256,6 +263,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -289,6 +297,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -301,6 +310,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
@@ -322,6 +332,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -350,6 +361,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -387,13 +399,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		0FE5E67B27D6B94000A8E556 /* ESV_Search.xcdatamodeld */ = {
+		0FE5E67B27D6B94000A8E556 /* DataModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				0FE5E67C27D6B94000A8E556 /* ESV_Search.xcdatamodel */,
+				0FE5E67C27D6B94000A8E556 /* DataModel.xcdatamodel */,
 			);
-			currentVersion = 0FE5E67C27D6B94000A8E556 /* ESV_Search.xcdatamodel */;
-			path = ESV_Search.xcdatamodeld;
+			currentVersion = 0FE5E67C27D6B94000A8E556 /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

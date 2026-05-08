@@ -1,6 +1,8 @@
 import Foundation
 
-struct SearchResult: Decodable {
+struct SearchResult {
     var reference: String
     var content: String
 }
+
+extension SearchResult: Codable {}

@@ -1,15 +1,13 @@
 import SwiftUI
-import CoreData
 
 struct ContentView: View {
 
     var body: some View {
-        Text("")
+        Text("You are here")
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
+#Preview(traits: .modifier(PersistencePreviewModifier())) {
+    ContentView()
+        .environment(\.esvAPI, ESVAPI(apiKey: "put ESV API key here"))
 }
