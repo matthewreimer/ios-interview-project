@@ -1,6 +1,6 @@
 # iOS Interview Assignment
 
-Please spend ***no more than 30 minutes*** on this assignment! We do not want this to be a burden on you or to be a measure of the amount of free time that you have or how quickly you can write code. Please track the time you spend on this assignment and be prepared to share how long it took you to complete. If you do not complete the assignment within 30 minutes, you will still have an opportunity to explain the parts that you did complete and to talk through how you would implement the remaining aspects.
+Please spend ***no more than two hours*** on this assignment! We do not want this to be a burden on you or to be a measure of the amount of free time that you have or how quickly you can write code. Please track the time you spend on this assignment and be prepared to share how long it took you to complete. If you do not complete the assignment within two hours, you will still have an opportunity to explain the parts that you did complete and to talk through how you would implement the remaining aspects.
 
 ## Assignment
 
